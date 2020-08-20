@@ -15,6 +15,24 @@
 		2B585F4A24EEC6B90058107D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B585F4824EEC6B90058107D /* LaunchScreen.storyboard */; };
 		2B585F5524EEC6B90058107D /* DadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F5424EEC6B90058107D /* DadiTests.swift */; };
 		2B585F6024EEC6B90058107D /* DadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F5F24EEC6B90058107D /* DadiUITests.swift */; };
+		2B585F7124EED5FF0058107D /* RoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7024EED5FF0058107D /* RoomsView.swift */; };
+		2B585F7324EED6170058107D /* RoomsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B585F7224EED6170058107D /* RoomsView.xib */; };
+		2B585F7524EED6350058107D /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7424EED6350058107D /* RoomViewModel.swift */; };
+		2B585F7824EEDAC30058107D /* RoomsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7724EEDAC30058107D /* RoomsViewProtocol.swift */; };
+		2B585F7A24EEE1720058107D /* RoomsPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7924EEE1720058107D /* RoomsPresenterProtocol.swift */; };
+		2B585F7C24EEE1E30058107D /* RoomsWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7B24EEE1E30058107D /* RoomsWireframeProtocol.swift */; };
+		2B585F8024EEE38B0058107D /* BaseWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7F24EEE38B0058107D /* BaseWireframeProtocol.swift */; };
+		2B585F8424EEE6C20058107D /* ViewDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F8324EEE6C20058107D /* ViewDispatcher.swift */; };
+		2B585F8624EEE8C80058107D /* RoomsInteractorInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F8524EEE8C80058107D /* RoomsInteractorInputProtocol.swift */; };
+		2B585F8824EEE9D70058107D /* RoomsInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F8724EEE9D70058107D /* RoomsInteractorOutputProtocol.swift */; };
+		2B585F8E24EEF19E0058107D /* RoomDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */; };
+		2B585F9124EEF2450058107D /* RoomsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9024EEF2440058107D /* RoomsAPIDataManager.swift */; };
+		2B585F9324EEFF640058107D /* RoomsAPIDataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9224EEFF640058107D /* RoomsAPIDataManagerProtocol.swift */; };
+		2B585F9624EF04090058107D /* RoomsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9524EF04090058107D /* RoomsEntity.swift */; };
+		2B585F9824EF05B60058107D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9724EF05B60058107D /* ErrorModel.swift */; };
+		2B585F9A24EF076E0058107D /* RoomDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9924EF076E0058107D /* RoomDetailEntity.swift */; };
+		2B585F9F24EF0BB60058107D /* APIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9E24EF0BB60058107D /* APIDataManager.swift */; };
+		2B585FA124EF0BC80058107D /* APIDataManagerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585FA024EF0BC80058107D /* APIDataManagerResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		2B585F5B24EEC6B90058107D /* DadiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B585F5F24EEC6B90058107D /* DadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadiUITests.swift; sourceTree = "<group>"; };
 		2B585F6124EEC6B90058107D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B585F7024EED5FF0058107D /* RoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsView.swift; sourceTree = "<group>"; };
+		2B585F7224EED6170058107D /* RoomsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomsView.xib; sourceTree = "<group>"; };
+		2B585F7424EED6350058107D /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		2B585F7724EEDAC30058107D /* RoomsViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewProtocol.swift; sourceTree = "<group>"; };
+		2B585F7924EEE1720058107D /* RoomsPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPresenterProtocol.swift; sourceTree = "<group>"; };
+		2B585F7B24EEE1E30058107D /* RoomsWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsWireframeProtocol.swift; sourceTree = "<group>"; };
+		2B585F7F24EEE38B0058107D /* BaseWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframeProtocol.swift; sourceTree = "<group>"; };
+		2B585F8324EEE6C20058107D /* ViewDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDispatcher.swift; sourceTree = "<group>"; };
+		2B585F8524EEE8C80058107D /* RoomsInteractorInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsInteractorInputProtocol.swift; sourceTree = "<group>"; };
+		2B585F8724EEE9D70058107D /* RoomsInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailViewModel.swift; sourceTree = "<group>"; };
+		2B585F9024EEF2440058107D /* RoomsAPIDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsAPIDataManager.swift; sourceTree = "<group>"; };
+		2B585F9224EEFF640058107D /* RoomsAPIDataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsAPIDataManagerProtocol.swift; sourceTree = "<group>"; };
+		2B585F9524EF04090058107D /* RoomsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsEntity.swift; sourceTree = "<group>"; };
+		2B585F9724EF05B60058107D /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		2B585F9924EF076E0058107D /* RoomDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailEntity.swift; sourceTree = "<group>"; };
+		2B585F9E24EF0BB60058107D /* APIDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataManager.swift; sourceTree = "<group>"; };
+		2B585FA024EF0BC80058107D /* APIDataManagerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataManagerResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +142,9 @@
 				2B585F4624EEC6B90058107D /* Assets.xcassets */,
 				2B585F4824EEC6B90058107D /* LaunchScreen.storyboard */,
 				2B585F4B24EEC6B90058107D /* Info.plist */,
+				2B585F7E24EEE35A0058107D /* Common */,
+				2B585F9424EF03E90058107D /* Entities */,
+				2B585F7D24EEE3310058107D /* Modules */,
 			);
 			path = Dadi;
 			sourceTree = "<group>";
@@ -126,6 +165,141 @@
 				2B585F6124EEC6B90058107D /* Info.plist */,
 			);
 			path = DadiUITests;
+			sourceTree = "<group>";
+		};
+		2B585F6D24EED5C70058107D /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F7624EEDA770058107D /* Protocol */,
+				2B585F6E24EED5DC0058107D /* View */,
+				2B585F8F24EEF21D0058107D /* DataManager */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		2B585F6E24EED5DC0058107D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F7024EED5FF0058107D /* RoomsView.swift */,
+				2B585F7224EED6170058107D /* RoomsView.xib */,
+				2B585F6F24EED5E20058107D /* Model */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B585F6F24EED5E20058107D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F7424EED6350058107D /* RoomViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B585F7624EEDA770058107D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F7724EEDAC30058107D /* RoomsViewProtocol.swift */,
+				2B585F7924EEE1720058107D /* RoomsPresenterProtocol.swift */,
+				2B585F7B24EEE1E30058107D /* RoomsWireframeProtocol.swift */,
+				2B585F8524EEE8C80058107D /* RoomsInteractorInputProtocol.swift */,
+				2B585F8724EEE9D70058107D /* RoomsInteractorOutputProtocol.swift */,
+				2B585F9224EEFF640058107D /* RoomsAPIDataManagerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2B585F7D24EEE3310058107D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F6D24EED5C70058107D /* Rooms */,
+				2B585F8924EEF1320058107D /* RoomDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2B585F7E24EEE35A0058107D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F9D24EF0B300058107D /* Dispatcher */,
+				2B585F9B24EF0AFE0058107D /* Wireframe */,
+				2B585F9C24EF0B0E0058107D /* DataManager */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2B585F8924EEF1320058107D /* RoomDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F8A24EEF1620058107D /* Protocol */,
+				2B585F8B24EEF1770058107D /* View */,
+			);
+			path = RoomDetail;
+			sourceTree = "<group>";
+		};
+		2B585F8A24EEF1620058107D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2B585F8B24EEF1770058107D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F8C24EEF17F0058107D /* Model */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B585F8C24EEF17F0058107D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B585F8F24EEF21D0058107D /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F9024EEF2440058107D /* RoomsAPIDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2B585F9424EF03E90058107D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F9524EF04090058107D /* RoomsEntity.swift */,
+				2B585F9924EF076E0058107D /* RoomDetailEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2B585F9B24EF0AFE0058107D /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F7F24EEE38B0058107D /* BaseWireframeProtocol.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		2B585F9C24EF0B0E0058107D /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F9724EF05B60058107D /* ErrorModel.swift */,
+				2B585F9E24EF0BB60058107D /* APIDataManager.swift */,
+				2B585FA024EF0BC80058107D /* APIDataManagerResult.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2B585F9D24EF0B300058107D /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F8324EEE6C20058107D /* ViewDispatcher.swift */,
+			);
+			path = Dispatcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +409,7 @@
 				2B585F4A24EEC6B90058107D /* LaunchScreen.storyboard in Resources */,
 				2B585F4724EEC6B90058107D /* Assets.xcassets in Resources */,
 				2B585F4524EEC6B70058107D /* Main.storyboard in Resources */,
+				2B585F7324EED6170058107D /* RoomsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +434,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B585F9824EF05B60058107D /* ErrorModel.swift in Sources */,
+				2B585F8024EEE38B0058107D /* BaseWireframeProtocol.swift in Sources */,
+				2B585F7524EED6350058107D /* RoomViewModel.swift in Sources */,
+				2B585FA124EF0BC80058107D /* APIDataManagerResult.swift in Sources */,
+				2B585F9F24EF0BB60058107D /* APIDataManager.swift in Sources */,
 				2B585F4224EEC6B70058107D /* ViewController.swift in Sources */,
 				2B585F3E24EEC6B70058107D /* AppDelegate.swift in Sources */,
+				2B585F8824EEE9D70058107D /* RoomsInteractorOutputProtocol.swift in Sources */,
+				2B585F7C24EEE1E30058107D /* RoomsWireframeProtocol.swift in Sources */,
+				2B585F7824EEDAC30058107D /* RoomsViewProtocol.swift in Sources */,
 				2B585F4024EEC6B70058107D /* SceneDelegate.swift in Sources */,
+				2B585F7124EED5FF0058107D /* RoomsView.swift in Sources */,
+				2B585F9624EF04090058107D /* RoomsEntity.swift in Sources */,
+				2B585F9324EEFF640058107D /* RoomsAPIDataManagerProtocol.swift in Sources */,
+				2B585F9A24EF076E0058107D /* RoomDetailEntity.swift in Sources */,
+				2B585F8E24EEF19E0058107D /* RoomDetailViewModel.swift in Sources */,
+				2B585F7A24EEE1720058107D /* RoomsPresenterProtocol.swift in Sources */,
+				2B585F9124EEF2450058107D /* RoomsAPIDataManager.swift in Sources */,
+				2B585F8624EEE8C80058107D /* RoomsInteractorInputProtocol.swift in Sources */,
+				2B585F8424EEE6C20058107D /* ViewDispatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
