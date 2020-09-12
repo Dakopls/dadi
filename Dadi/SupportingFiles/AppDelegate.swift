@@ -17,10 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         let wireframe = AuthenticationWireframe()
-//        window?.rootViewController = wireframe.entry
-        let vc = UIViewController()
-        vc.view.backgroundColor = .red
-        window?.rootViewController = vc
+        window?.rootViewController = wireframe.entry
+//        let vc = UIViewController()
+//        vc.view.backgroundColor = .red
+//        window?.rootViewController = vc
         
         //Make this scene's window visible
         window?.makeKeyAndVisible()

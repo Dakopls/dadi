@@ -12,6 +12,10 @@ class EntryViewController: UIViewController {
     
     var presenter: AuthenticationPresenterProtocol?
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBAction func loginPressed() {
         presenter?.perform(action: .loginSelected)
     }

@@ -11,7 +11,6 @@ import UIKit
 enum AuthenticationPage {
     case login
     case register
-    case back
 }
 
 protocol AuthenticationWireframeProtocol: class {

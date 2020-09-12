@@ -29,7 +29,6 @@ class AuthenticationWireframe: AuthenticationWireframeProtocol {
         switch page {
         case .login: pushLoginFromEntry()
         case .register: pushRegisterFromEntry()
-        case .back: returnToEntry()
         }
     }
     
@@ -51,9 +50,5 @@ class AuthenticationWireframe: AuthenticationWireframeProtocol {
             self.register = register as UIViewController
         }
         entry.show(self.register!, sender: self.entry)
-    }
-    
-    private func returnToEntry() {
-        entry.dismiss(animated: true, completion: nil)
     }
 }

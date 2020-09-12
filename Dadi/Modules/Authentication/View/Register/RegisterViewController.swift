@@ -12,6 +12,10 @@ class RegisterViewController: UIViewController {
     
     var presenter: AuthenticationPresenterProtocol?
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBAction func donePressed() {
         presenter?.perform(action: .submitRegister)
         //TODO: send email and pass to presenter
