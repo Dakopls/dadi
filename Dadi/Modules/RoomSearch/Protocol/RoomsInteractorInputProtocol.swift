@@ -10,8 +10,8 @@ import Foundation
 
 enum RoomsJob: Equatable {
     case requestRooms
-    case scrollTo(_ index: Int)
-    case requestRoomDetail(_ index: Int)
+    case scrollTo(index: Int)
+    case requestRoomDetail(index: Int)
 }
 
 protocol RoomsInteractorInputProtocol: class {

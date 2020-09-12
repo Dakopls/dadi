@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B53E023250D49610009D517 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53E022250D49610009D517 /* RegisterViewController.swift */; };
+		2B53E025250D49EC0009D517 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B53E024250D49EC0009D517 /* RegisterView.xib */; };
+		2B53E027250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53E026250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift */; };
+		2B53E02A250D4E5A0009D517 /* AuthenticationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53E029250D4E5A0009D517 /* AuthenticationPresenter.swift */; };
 		2B585F3E24EEC6B70058107D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F3D24EEC6B70058107D /* AppDelegate.swift */; };
-		2B585F4024EEC6B70058107D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F3F24EEC6B70058107D /* SceneDelegate.swift */; };
-		2B585F4224EEC6B70058107D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F4124EEC6B70058107D /* ViewController.swift */; };
-		2B585F4524EEC6B70058107D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B585F4324EEC6B70058107D /* Main.storyboard */; };
 		2B585F4724EEC6B90058107D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B585F4624EEC6B90058107D /* Assets.xcassets */; };
 		2B585F4A24EEC6B90058107D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B585F4824EEC6B90058107D /* LaunchScreen.storyboard */; };
 		2B585F5524EEC6B90058107D /* DadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F5424EEC6B90058107D /* DadiTests.swift */; };
@@ -33,6 +34,12 @@
 		2B585F9A24EF076E0058107D /* RoomDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9924EF076E0058107D /* RoomDetailEntity.swift */; };
 		2B585F9F24EF0BB60058107D /* APIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9E24EF0BB60058107D /* APIDataManager.swift */; };
 		2B585FA124EF0BC80058107D /* APIDataManagerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585FA024EF0BC80058107D /* APIDataManagerResult.swift */; };
+		2B5E114D250D085C004F3636 /* AuthenticationWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E114C250D085C004F3636 /* AuthenticationWireframe.swift */; };
+		2B5E1150250D0F21004F3636 /* AuthentiactionWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E114F250D0F21004F3636 /* AuthentiactionWireframeProtocol.swift */; };
+		2B5E1154250D149E004F3636 /* EntryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E1153250D149E004F3636 /* EntryView.xib */; };
+		2B5E1156250D14C0004F3636 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E1155250D14C0004F3636 /* EntryViewController.swift */; };
+		2B5E115A250D2291004F3636 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E1159250D2291004F3636 /* LoginViewController.swift */; };
+		2B5E1160250D258C004F3636 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E115F250D258C004F3636 /* LoginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B53E022250D49610009D517 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2B53E024250D49EC0009D517 /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		2B53E026250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPresenterProtcol.swift; sourceTree = "<group>"; };
+		2B53E029250D4E5A0009D517 /* AuthenticationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPresenter.swift; sourceTree = "<group>"; };
 		2B585F3A24EEC6B70058107D /* Dadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B585F3D24EEC6B70058107D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B585F3F24EEC6B70058107D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B585F4124EEC6B70058107D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B585F4424EEC6B70058107D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B585F4624EEC6B90058107D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B585F4924EEC6B90058107D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B585F4B24EEC6B90058107D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +93,12 @@
 		2B585F9924EF076E0058107D /* RoomDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailEntity.swift; sourceTree = "<group>"; };
 		2B585F9E24EF0BB60058107D /* APIDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataManager.swift; sourceTree = "<group>"; };
 		2B585FA024EF0BC80058107D /* APIDataManagerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataManagerResult.swift; sourceTree = "<group>"; };
+		2B5E114C250D085C004F3636 /* AuthenticationWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationWireframe.swift; sourceTree = "<group>"; };
+		2B5E114F250D0F21004F3636 /* AuthentiactionWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentiactionWireframeProtocol.swift; sourceTree = "<group>"; };
+		2B5E1153250D149E004F3636 /* EntryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryView.xib; sourceTree = "<group>"; };
+		2B5E1155250D14C0004F3636 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		2B5E1159250D2291004F3636 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B5E115F250D258C004F3636 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B53E028250D4E2D0009D517 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2B53E029250D4E5A0009D517 /* AuthenticationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		2B585F3124EEC6B70058107D = {
 			isa = PBXGroup;
 			children = (
@@ -135,15 +157,8 @@
 		2B585F3C24EEC6B70058107D /* Dadi */ = {
 			isa = PBXGroup;
 			children = (
-				2B585F3D24EEC6B70058107D /* AppDelegate.swift */,
-				2B585F3F24EEC6B70058107D /* SceneDelegate.swift */,
-				2B585F4124EEC6B70058107D /* ViewController.swift */,
-				2B585F4324EEC6B70058107D /* Main.storyboard */,
-				2B585F4624EEC6B90058107D /* Assets.xcassets */,
-				2B585F4824EEC6B90058107D /* LaunchScreen.storyboard */,
-				2B585F4B24EEC6B90058107D /* Info.plist */,
+				2B6ACC84250151140041C6D3 /* SupportingFiles */,
 				2B585F7E24EEE35A0058107D /* Common */,
-				2B585F9424EF03E90058107D /* Entities */,
 				2B585F7D24EEE3310058107D /* Modules */,
 			);
 			path = Dadi;
@@ -167,14 +182,17 @@
 			path = DadiUITests;
 			sourceTree = "<group>";
 		};
-		2B585F6D24EED5C70058107D /* Rooms */ = {
+		2B585F6D24EED5C70058107D /* RoomSearch */ = {
 			isa = PBXGroup;
 			children = (
 				2B585F7624EEDA770058107D /* Protocol */,
+				2B585FA424F032AE0058107D /* Wireframe */,
 				2B585F6E24EED5DC0058107D /* View */,
+				2B585FA224F032840058107D /* Presenter */,
+				2B585FA324F0328F0058107D /* Interactor */,
 				2B585F8F24EEF21D0058107D /* DataManager */,
 			);
-			path = Rooms;
+			path = RoomSearch;
 			sourceTree = "<group>";
 		};
 		2B585F6E24EED5DC0058107D /* View */ = {
@@ -191,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				2B585F7424EED6350058107D /* RoomViewModel.swift */,
+				2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,10 +219,10 @@
 			children = (
 				2B585F7724EEDAC30058107D /* RoomsViewProtocol.swift */,
 				2B585F7924EEE1720058107D /* RoomsPresenterProtocol.swift */,
-				2B585F7B24EEE1E30058107D /* RoomsWireframeProtocol.swift */,
-				2B585F8524EEE8C80058107D /* RoomsInteractorInputProtocol.swift */,
 				2B585F8724EEE9D70058107D /* RoomsInteractorOutputProtocol.swift */,
+				2B585F8524EEE8C80058107D /* RoomsInteractorInputProtocol.swift */,
 				2B585F9224EEFF640058107D /* RoomsAPIDataManagerProtocol.swift */,
+				2B585F7B24EEE1E30058107D /* RoomsWireframeProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -211,8 +230,11 @@
 		2B585F7D24EEE3310058107D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				2B585F6D24EED5C70058107D /* Rooms */,
-				2B585F8924EEF1320058107D /* RoomDetail */,
+				2B6ACC852501512D0041C6D3 /* Authentication */,
+				2B6ACC872501542C0041C6D3 /* Onboarding */,
+				2B6ACC89250154630041C6D3 /* Home */,
+				2B585F6D24EED5C70058107D /* RoomSearch */,
+				2B6ACC88250154440041C6D3 /* RoomListing */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -222,41 +244,10 @@
 			children = (
 				2B585F9D24EF0B300058107D /* Dispatcher */,
 				2B585F9B24EF0AFE0058107D /* Wireframe */,
+				2B585F9424EF03E90058107D /* Entities */,
 				2B585F9C24EF0B0E0058107D /* DataManager */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		2B585F8924EEF1320058107D /* RoomDetail */ = {
-			isa = PBXGroup;
-			children = (
-				2B585F8A24EEF1620058107D /* Protocol */,
-				2B585F8B24EEF1770058107D /* View */,
-			);
-			path = RoomDetail;
-			sourceTree = "<group>";
-		};
-		2B585F8A24EEF1620058107D /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		2B585F8B24EEF1770058107D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2B585F8C24EEF17F0058107D /* Model */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2B585F8C24EEF17F0058107D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		2B585F8F24EEF21D0058107D /* DataManager */ = {
@@ -300,6 +291,124 @@
 				2B585F8324EEE6C20058107D /* ViewDispatcher.swift */,
 			);
 			path = Dispatcher;
+			sourceTree = "<group>";
+		};
+		2B585FA224F032840058107D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2B585FA324F0328F0058107D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2B585FA424F032AE0058107D /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		2B5E114B250D0833004F3636 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E114C250D085C004F3636 /* AuthenticationWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		2B5E114E250D0F07004F3636 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E114F250D0F21004F3636 /* AuthentiactionWireframeProtocol.swift */,
+				2B53E026250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2B5E1151250D129F004F3636 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E1152250D147F004F3636 /* Entry */,
+				2B5E1158250D2117004F3636 /* Login */,
+				2B5E1157250D2109004F3636 /* Register */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B5E1152250D147F004F3636 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E1155250D14C0004F3636 /* EntryViewController.swift */,
+				2B5E1153250D149E004F3636 /* EntryView.xib */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		2B5E1157250D2109004F3636 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2B53E022250D49610009D517 /* RegisterViewController.swift */,
+				2B53E024250D49EC0009D517 /* RegisterView.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		2B5E1158250D2117004F3636 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E1159250D2291004F3636 /* LoginViewController.swift */,
+				2B5E115F250D258C004F3636 /* LoginView.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2B6ACC84250151140041C6D3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2B585F4B24EEC6B90058107D /* Info.plist */,
+				2B585F3D24EEC6B70058107D /* AppDelegate.swift */,
+				2B585F4624EEC6B90058107D /* Assets.xcassets */,
+				2B585F4824EEC6B90058107D /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2B6ACC852501512D0041C6D3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E114E250D0F07004F3636 /* Protocol */,
+				2B5E114B250D0833004F3636 /* Wireframe */,
+				2B5E1151250D129F004F3636 /* View */,
+				2B53E028250D4E2D0009D517 /* Presenter */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		2B6ACC872501542C0041C6D3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		2B6ACC88250154440041C6D3 /* RoomListing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RoomListing;
+			sourceTree = "<group>";
+		};
+		2B6ACC89250154630041C6D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,9 +516,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B585F4A24EEC6B90058107D /* LaunchScreen.storyboard in Resources */,
+				2B53E025250D49EC0009D517 /* RegisterView.xib in Resources */,
 				2B585F4724EEC6B90058107D /* Assets.xcassets in Resources */,
-				2B585F4524EEC6B70058107D /* Main.storyboard in Resources */,
 				2B585F7324EED6170058107D /* RoomsView.xib in Resources */,
+				2B5E1160250D258C004F3636 /* LoginView.xib in Resources */,
+				2B5E1154250D149E004F3636 /* EntryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,24 +545,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5E1150250D0F21004F3636 /* AuthentiactionWireframeProtocol.swift in Sources */,
 				2B585F9824EF05B60058107D /* ErrorModel.swift in Sources */,
+				2B5E114D250D085C004F3636 /* AuthenticationWireframe.swift in Sources */,
 				2B585F8024EEE38B0058107D /* BaseWireframeProtocol.swift in Sources */,
 				2B585F7524EED6350058107D /* RoomViewModel.swift in Sources */,
 				2B585FA124EF0BC80058107D /* APIDataManagerResult.swift in Sources */,
 				2B585F9F24EF0BB60058107D /* APIDataManager.swift in Sources */,
-				2B585F4224EEC6B70058107D /* ViewController.swift in Sources */,
 				2B585F3E24EEC6B70058107D /* AppDelegate.swift in Sources */,
 				2B585F8824EEE9D70058107D /* RoomsInteractorOutputProtocol.swift in Sources */,
 				2B585F7C24EEE1E30058107D /* RoomsWireframeProtocol.swift in Sources */,
+				2B5E115A250D2291004F3636 /* LoginViewController.swift in Sources */,
 				2B585F7824EEDAC30058107D /* RoomsViewProtocol.swift in Sources */,
-				2B585F4024EEC6B70058107D /* SceneDelegate.swift in Sources */,
 				2B585F7124EED5FF0058107D /* RoomsView.swift in Sources */,
 				2B585F9624EF04090058107D /* RoomsEntity.swift in Sources */,
+				2B53E023250D49610009D517 /* RegisterViewController.swift in Sources */,
 				2B585F9324EEFF640058107D /* RoomsAPIDataManagerProtocol.swift in Sources */,
 				2B585F9A24EF076E0058107D /* RoomDetailEntity.swift in Sources */,
 				2B585F8E24EEF19E0058107D /* RoomDetailViewModel.swift in Sources */,
+				2B53E027250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift in Sources */,
 				2B585F7A24EEE1720058107D /* RoomsPresenterProtocol.swift in Sources */,
+				2B5E1156250D14C0004F3636 /* EntryViewController.swift in Sources */,
 				2B585F9124EEF2450058107D /* RoomsAPIDataManager.swift in Sources */,
+				2B53E02A250D4E5A0009D517 /* AuthenticationPresenter.swift in Sources */,
 				2B585F8624EEE8C80058107D /* RoomsInteractorInputProtocol.swift in Sources */,
 				2B585F8424EEE6C20058107D /* ViewDispatcher.swift in Sources */,
 			);
@@ -489,14 +605,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2B585F4324EEC6B70058107D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B585F4424EEC6B70058107D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B585F4824EEC6B90058107D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -627,7 +735,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Dadi/Info.plist;
+				INFOPLIST_FILE = Dadi/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,7 +743,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = madebydak.Dadi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -644,7 +752,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Dadi/Info.plist;
+				INFOPLIST_FILE = Dadi/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -652,7 +760,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = madebydak.Dadi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

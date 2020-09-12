@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EntryViewController" customModule="Dadi" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="ih4-Vn-AlP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6S-Xa-Pay">
+                    <rect key="frame" x="129" y="359" width="117" height="54"/>
+                    <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="quz-zB-2D9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Log in">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="loginPressed" destination="-1" eventType="touchUpInside" id="HpG-FC-sfV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohO-Tb-hz7">
+                    <rect key="frame" x="129" y="463" width="117" height="54"/>
+                    <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="ACx-Co-Gk1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Register">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="registerPressed" destination="-1" eventType="touchUpInside" id="5Gx-Qa-6n4"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your perfect flatmates are already here, come find them!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5g-o1-MqY">
+                    <rect key="frame" x="55" y="199" width="265" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="sXZ-n5-WLV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to dadi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTT-r3-FEo">
+                    <rect key="frame" x="66" y="100" width="243" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="1Xi-zC-7Xw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="29"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="W5g-o1-MqY" secondAttribute="trailing" constant="55" id="3c8-pq-QMt"/>
+                <constraint firstItem="W5g-o1-MqY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="55" id="CJr-Up-xt7"/>
+                <constraint firstItem="HTT-r3-FEo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="66" id="D4u-52-Lyu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="C6S-Xa-Pay" secondAttribute="trailing" constant="129" id="IKD-aU-eaV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HTT-r3-FEo" secondAttribute="trailing" constant="66" id="Okw-Xd-P3N"/>
+                <constraint firstItem="ohO-Tb-hz7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="129" id="Om8-lk-QUi"/>
+                <constraint firstItem="HTT-r3-FEo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="W2W-nF-gnr"/>
+                <constraint firstItem="C6S-Xa-Pay" firstAttribute="top" secondItem="W5g-o1-MqY" secondAttribute="bottom" constant="113" id="YEn-Es-NWH"/>
+                <constraint firstItem="ohO-Tb-hz7" firstAttribute="top" secondItem="C6S-Xa-Pay" secondAttribute="bottom" constant="50" id="mT2-Jr-wq1"/>
+                <constraint firstItem="W5g-o1-MqY" firstAttribute="top" secondItem="HTT-r3-FEo" secondAttribute="bottom" constant="45" id="qVn-nv-HwM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ohO-Tb-hz7" secondAttribute="trailing" constant="129" id="vHS-k2-LSv"/>
+                <constraint firstItem="C6S-Xa-Pay" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="129" id="yCl-VI-q6a"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="144.3778110944528"/>
+        </view>
+    </objects>
+</document>

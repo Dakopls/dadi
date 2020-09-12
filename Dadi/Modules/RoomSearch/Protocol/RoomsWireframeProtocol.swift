@@ -9,7 +9,7 @@
 import UIKit
 
 enum RoomsPath {
-//    case goToRoom(_ roomDetail: RoomDetailModel) //TODO: room Detail
+//    case goToRoom(_ roomDetail: RoomDetailModel) //ok...
     case exitRooms
 }
 
@@ -18,6 +18,7 @@ protocol RoomsWireframeProtocol: BaseWireframeProtocol {
     var view: UIViewController? { get set }
     
     static func createModule() -> UIViewController
+    
     func navigate(_ to: RoomsPath)
     
 }

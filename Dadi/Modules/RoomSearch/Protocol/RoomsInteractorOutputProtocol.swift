@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 enum RoomsInteractorResult {
     case roomsFailure(String)
     case roomsSuccess([RoomViewModel])
