@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoomsViewController" customModule="Badi" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="SDh-Lp-Sle" id="Sc4-Da-omZ"/>
+                <outlet property="headerView" destination="JWE-pe-38N" id="7gq-RL-8oV"/>
+                <outlet property="locationSearched" destination="lPX-k5-47v" id="zcd-fG-2wV"/>
+                <outlet property="tableView" destination="WJz-Id-h51" id="J07-pM-a0I"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ega-qY-DZ3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JWE-pe-38N">
+                    <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SDh-Lp-Sle" customClass="UIControl">
+                            <rect key="frame" x="28" y="7" width="358" height="36"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Hkr-N6-0c8">
+                                    <rect key="frame" x="4" y="9.5" width="24" height="14"/>
+                                    <color key="tintColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="24" id="w4x-mC-rUT"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPX-k5-47v">
+                                    <rect key="frame" x="31" y="6" width="319" height="22"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" staticText="YES"/>
+                            </accessibility>
+                            <constraints>
+                                <constraint firstItem="Hkr-N6-0c8" firstAttribute="top" secondItem="SDh-Lp-Sle" secondAttribute="top" constant="7" id="FVU-An-aBg"/>
+                                <constraint firstAttribute="bottom" secondItem="lPX-k5-47v" secondAttribute="bottom" constant="8" id="bZq-Xt-hkI"/>
+                                <constraint firstAttribute="bottom" secondItem="Hkr-N6-0c8" secondAttribute="bottom" constant="10" id="cLn-jq-iTb"/>
+                                <constraint firstItem="Hkr-N6-0c8" firstAttribute="leading" secondItem="SDh-Lp-Sle" secondAttribute="leading" constant="4" id="ddf-T7-YA7"/>
+                                <constraint firstItem="lPX-k5-47v" firstAttribute="leading" secondItem="Hkr-N6-0c8" secondAttribute="trailing" constant="3" id="ioF-ai-y3b"/>
+                                <constraint firstItem="lPX-k5-47v" firstAttribute="top" secondItem="SDh-Lp-Sle" secondAttribute="top" constant="6" id="jFR-NN-RDT"/>
+                                <constraint firstAttribute="trailing" secondItem="lPX-k5-47v" secondAttribute="trailing" constant="8" id="wWo-oq-lKj"/>
+                            </constraints>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="Zme-uY-7yd"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="SDh-Lp-Sle" secondAttribute="bottom" constant="7" id="NPK-X3-zJq"/>
+                        <constraint firstItem="SDh-Lp-Sle" firstAttribute="top" secondItem="JWE-pe-38N" secondAttribute="top" constant="7" id="iuL-qS-hB7"/>
+                        <constraint firstAttribute="trailing" secondItem="SDh-Lp-Sle" secondAttribute="trailing" constant="28" id="k8m-EV-o5m"/>
+                        <constraint firstAttribute="height" constant="50" id="keN-6y-pyu"/>
+                        <constraint firstItem="SDh-Lp-Sle" firstAttribute="leading" secondItem="JWE-pe-38N" secondAttribute="leading" constant="28" id="nfw-Yh-Cwg"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WJz-Id-h51">
+                    <rect key="frame" x="0.0" y="102" width="414" height="760"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="sR7-Xh-U4T"/>
+                        <outlet property="delegate" destination="-1" id="AvJ-DM-8oY"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JWE-pe-38N" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3x1-rd-CSg"/>
+                <constraint firstItem="JWE-pe-38N" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="bYg-TM-AZP"/>
+                <constraint firstItem="JWE-pe-38N" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="eLt-qx-qWq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="0.0" y="55.580357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow.left" catalog="system" width="64" height="48"/>
+    </resources>
+</document>

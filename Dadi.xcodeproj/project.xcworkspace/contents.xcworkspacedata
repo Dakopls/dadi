@@ -1,7 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../Dadi"
+      name = "Dadi">
+      <Group
+         location = "group:Common"
+         name = "Common">
+         <Group
+            location = "group:DataManager"
+            name = "DataManager">
+            <FileRef
+               location = "group:APIDataManager.swift">
+            </FileRef>
+            <FileRef
+               location = "group:APIDataManagerResult.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ErrorModel.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Dispatcher"
+            name = "Dispatcher">
+            <FileRef
+               location = "group:ViewDispatcher.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Wireframe"
+            name = "Wireframe">
+            <FileRef
+               location = "group:BaseWireframeProtocol.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Entities"
+            name = "Entities">
+            <FileRef
+               location = "group:RoomsEntity.swift">
+            </FileRef>
+            <FileRef
+               location = "group:RoomDetailEntity.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:SupportingFiles"
+         name = "SupportingFiles">
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:Images_inbox.imageset"
+               name = "Images_inbox.imageset">
+               <FileRef
+                  location = "group:Images_inbox.pdf">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Icons_home_search.imageset"
+               name = "Icons_home_search.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:Icons_home_search.pdf">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Icons_home_chat.imageset"
+               name = "Icons_home_chat.imageset">
+               <FileRef
+                  location = "group:Icons_home_chat.pdf">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Images_favorites.imageset"
+               name = "Images_favorites.imageset">
+               <FileRef
+                  location = "group:Images_favorites.pdf">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Icons_home_profile.imageset"
+               name = "Icons_home_profile.imageset">
+               <FileRef
+                  location = "group:Icons_home_profile.pdf">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:Icons_home_favorites.imageset"
+               name = "Icons_home_favorites.imageset">
+               <FileRef
+                  location = "group:Icons_home_favorites.pdf">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Modules"
+         name = "Modules">
+         <Group
+            location = "group:Home"
+            name = "Home">
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:HomeTabBarController.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Chat"
+            name = "Chat">
+            <Group
+               location = "group:Wireframe"
+               name = "Wireframe">
+               <FileRef
+                  location = "group:ChatWireframe.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:ChatsViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ChatsView.xib">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Favorites"
+            name = "Favorites">
+            <Group
+               location = "group:Wireframe"
+               name = "Wireframe">
+               <FileRef
+                  location = "group:FavoritesWireframe.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:FavoritesViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FavoritesView.xib">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:RoomSearch"
+            name = "RoomSearch">
+            <Group
+               location = "group:DataManager"
+               name = "DataManager">
+               <FileRef
+                  location = "group:RoomsAPIDataManager.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Presenter"
+               name = "Presenter">
+            </Group>
+            <Group
+               location = "group:Wireframe"
+               name = "Wireframe">
+               <FileRef
+                  location = "group:RoomsWireframe.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Protocol"
+               name = "Protocol">
+               <FileRef
+                  location = "group:RoomsAPIDataManagerProtocol.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RoomsInteractorOutputProtocol.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RoomsInteractorInputProtocol.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RoomsWireframeProtocol.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RoomsViewProtocol.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RoomsPresenterProtocol.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:RoomsView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RoomsView.xib">
+               </FileRef>
+               <Group
+                  location = "group:Model"
+                  name = "Model">
+                  <FileRef
+                     location = "group:RoomDetailViewModel.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RoomViewModel.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Interactor"
+               name = "Interactor">
+            </Group>
+         </Group>
+         <Group
+            location = "group:Profile"
+            name = "Profile">
+            <Group
+               location = "group:Wireframe"
+               name = "Wireframe">
+               <FileRef
+                  location = "group:ProfileWireframe.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:ProfileView.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:ProfileViewController.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:RoomListing"
+            name = "RoomListing">
+         </Group>
+         <Group
+            location = "group:Authentication"
+            name = "Authentication">
+            <Group
+               location = "group:Presenter"
+               name = "Presenter">
+               <FileRef
+                  location = "group:AuthenticationPresenter.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Wireframe"
+               name = "Wireframe">
+               <FileRef
+                  location = "group:AuthenticationWireframe.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Protocol"
+               name = "Protocol">
+               <FileRef
+                  location = "group:AuthenticationPresenterProtcol.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AuthentiactionWireframeProtocol.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:View"
+               name = "View">
+               <Group
+                  location = "group:Entry"
+                  name = "Entry">
+                  <FileRef
+                     location = "group:EntryView.xib">
+                  </FileRef>
+                  <FileRef
+                     location = "group:EntryViewController.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Register"
+                  name = "Register">
+                  <FileRef
+                     location = "group:RegisterView.xib">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RegisterViewController.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Login"
+                  name = "Login">
+                  <FileRef
+                     location = "group:LoginView.xib">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LoginViewController.xib">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LoginViewController.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Onboarding"
+            name = "Onboarding">
+         </Group>
+      </Group>
+   </Group>
    <FileRef
-      location = "self:Dadi.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

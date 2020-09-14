@@ -8,11 +8,12 @@
 
 import UIKit
 
-class AuthenticationWireframe: AuthenticationWireframeProtocol {    
+class AuthenticationWireframe: AuthenticationWireframeProtocol {
     
     var entry: UIViewController!
     var login: UIViewController?
     var register: UIViewController?
+    
     var presenter: AuthenticationPresenterProtocol?
     
     init() {
@@ -29,6 +30,8 @@ class AuthenticationWireframe: AuthenticationWireframeProtocol {
         switch page {
         case .login: pushLoginFromEntry()
         case .register: pushRegisterFromEntry()
+        case .finish: createHomePage()
+        case .onboarding: createOnboarding()
         }
     }
     
@@ -50,5 +53,17 @@ class AuthenticationWireframe: AuthenticationWireframeProtocol {
             self.register = register as UIViewController
         }
         entry.show(self.register!, sender: self.entry)
+    }
+    
+    private func createHomePage() {
+        let home = HomeTabBarController()
+        home.isModalInPresentation = true
+        home.modalPresentationStyle = .fullScreen
+        home.modalTransitionStyle = .crossDissolve
+        login?.present(home, animated: true)
+    }
+    
+    private func createOnboarding() {
+        //TODO: create onboarding module
     }
 }

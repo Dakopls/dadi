@@ -13,6 +13,7 @@ class AuthenticationPresenter: AuthenticationPresenterProtocol {
     var entry: EntryViewController?
     var login: LoginViewController?
     var register: RegisterViewController?
+    
     var wireframe: AuthenticationWireframeProtocol?
     
     func perform(action: AuthenticationAction) {
@@ -21,8 +22,11 @@ class AuthenticationPresenter: AuthenticationPresenterProtocol {
             wireframe?.navigate(to: .login)
         case .registerSelected:
             wireframe?.navigate(to: .register)
-        case .submitLogin: break //TBD
-        case .submitRegister: break //TBD
+        case .submitLogin:
+            wireframe?.navigate(to: .finish)
+        case .submitRegister:
+            wireframe?.navigate(to: .finish)
+//            wireframe?.navigate(to: .onboarding)
         }
     }
 }

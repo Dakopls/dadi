@@ -6,6 +6,6 @@
 //  Copyright © 2020 Dídac Serrano i Segarra. All rights reserved.
 //
 
-import Foundation
-
-struct RoomDetailEntity {}
+struct RoomDetailEntity: Codable {
+    var id: String    
+}

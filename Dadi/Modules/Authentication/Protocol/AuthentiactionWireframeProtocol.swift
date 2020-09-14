@@ -11,12 +11,17 @@ import UIKit
 enum AuthenticationPage {
     case login
     case register
+    case finish
+    case onboarding
 }
 
 protocol AuthenticationWireframeProtocol: class {
+    
     var entry: UIViewController! { get set }
     var login: UIViewController? { get set }
     var register: UIViewController? { get set }
+    
+    var presenter: AuthenticationPresenterProtocol? { get set }
     
     func navigate(to page: AuthenticationPage)
 }
