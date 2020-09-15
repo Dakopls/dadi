@@ -1,0 +1,6 @@
+framework module Pods_Dadi {
+  umbrella header "Pods-Dadi-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -55,8 +55,8 @@ final class SearchAPIDataManager: SearchAPIDataManagerProtocol {
                 resultBlock(result)
             }
         } else {
-//            self.roomDetail = RoomDetailEntity()
-//                resultBlock(.success(roomDetail))
+            self.roomDetail = RoomDetailEntity(id: 1, title: "Nice room in the centre of Gràcia!", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis dignissim hac, luctus lectus class nunc quisque nostra a pellentesque mi, felis lacinia vehicula venenatis malesuada torquent ultricies arcu sociis. Porttitor euismod penatibus felis velit ultricies semper senectus, ante sollicitudin eleifend tincidunt laoreet diam augue, scelerisque quis nisi in fusce justo.", price: "350€", lat: 41.4048, lng: 2.153499, owner: OwnerEntity(id: 1, display: "Àngel, 24"))
+            resultBlock(.success(self.roomDetail!))
         }
     }
 }

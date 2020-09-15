@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269430E13225544D4DEE4173 /* Pods_Dadi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A34D025FB1D01247DF8F34 /* Pods_Dadi.framework */; };
 		2B53E023250D49610009D517 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53E022250D49610009D517 /* RegisterViewController.swift */; };
 		2B53E025250D49EC0009D517 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B53E024250D49EC0009D517 /* RegisterView.xib */; };
 		2B53E027250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53E026250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift */; };
@@ -59,9 +60,11 @@
 		2BFEE120250FD016003FAB93 /* OwnerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE11F250FD016003FAB93 /* OwnerEntity.swift */; };
 		2BFEE122250FDA97003FAB93 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE121250FDA97003FAB93 /* SearchInteractor.swift */; };
 		2BFEE124250FF619003FAB93 /* URLDataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE123250FF619003FAB93 /* URLDataRetriever.swift */; };
+		2BFEE1262510D068003FAB93 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE1252510D068003FAB93 /* DetailViewController.swift */; };
 		2BFF352F250E707F00158614 /* ProfileWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF352B250E707F00158614 /* ProfileWireframe.swift */; };
 		2BFF3530250E707F00158614 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFF352D250E707F00158614 /* ProfileView.xib */; };
 		2BFF3531250E707F00158614 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF352E250E707F00158614 /* ProfileViewController.swift */; };
+		8E9D5ADFB6968A4CE71957B7 /* Pods_DadiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B32422ABFDF23FBAEA7493 /* Pods_DadiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001C5C3FD136E54343721925 /* Pods-DadiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadiTests.debug.xcconfig"; path = "Target Support Files/Pods-DadiTests/Pods-DadiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24C8161A0B642ABB05890768 /* Pods-DadiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadiTests.release.xcconfig"; path = "Target Support Files/Pods-DadiTests/Pods-DadiTests.release.xcconfig"; sourceTree = "<group>"; };
 		2B53E022250D49610009D517 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2B53E024250D49EC0009D517 /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
 		2B53E026250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPresenterProtcol.swift; sourceTree = "<group>"; };
@@ -140,9 +145,14 @@
 		2BFEE11F250FD016003FAB93 /* OwnerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerEntity.swift; sourceTree = "<group>"; };
 		2BFEE121250FDA97003FAB93 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
 		2BFEE123250FF619003FAB93 /* URLDataRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLDataRetriever.swift; sourceTree = "<group>"; };
+		2BFEE1252510D068003FAB93 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2BFF352B250E707F00158614 /* ProfileWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileWireframe.swift; sourceTree = "<group>"; };
 		2BFF352D250E707F00158614 /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 		2BFF352E250E707F00158614 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		47B42D1B9459E6A5BF2C7108 /* Pods-Dadi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dadi.debug.xcconfig"; path = "Target Support Files/Pods-Dadi/Pods-Dadi.debug.xcconfig"; sourceTree = "<group>"; };
+		84A34D025FB1D01247DF8F34 /* Pods_Dadi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dadi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B32422ABFDF23FBAEA7493 /* Pods_DadiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DadiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2092F74E5982530A340580A /* Pods-Dadi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dadi.release.xcconfig"; path = "Target Support Files/Pods-Dadi/Pods-Dadi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269430E13225544D4DEE4173 /* Pods_Dadi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9D5ADFB6968A4CE71957B7 /* Pods_DadiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +197,8 @@
 				2B585F5324EEC6B90058107D /* DadiTests */,
 				2B585F5E24EEC6B90058107D /* DadiUITests */,
 				2B585F3B24EEC6B70058107D /* Products */,
+				649F9B721AF0B54E1007FE44 /* Pods */,
+				54892F4807926CE786895606 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -514,6 +528,7 @@
 		2B6BBEC2250E857B00E6E250 /* RoomDetail */ = {
 			isa = PBXGroup;
 			children = (
+				2BFEE1252510D068003FAB93 /* DetailViewController.swift */,
 			);
 			path = RoomDetail;
 			sourceTree = "<group>";
@@ -613,6 +628,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		54892F4807926CE786895606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A34D025FB1D01247DF8F34 /* Pods_Dadi.framework */,
+				B0B32422ABFDF23FBAEA7493 /* Pods_DadiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649F9B721AF0B54E1007FE44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47B42D1B9459E6A5BF2C7108 /* Pods-Dadi.debug.xcconfig */,
+				D2092F74E5982530A340580A /* Pods-Dadi.release.xcconfig */,
+				001C5C3FD136E54343721925 /* Pods-DadiTests.debug.xcconfig */,
+				24C8161A0B642ABB05890768 /* Pods-DadiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -620,9 +656,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B585F6424EEC6B90058107D /* Build configuration list for PBXNativeTarget "Dadi" */;
 			buildPhases = (
+				54CD734BAFD58BED7D89E4D0 /* [CP] Check Pods Manifest.lock */,
 				2B585F3624EEC6B70058107D /* Sources */,
 				2B585F3724EEC6B70058107D /* Frameworks */,
 				2B585F3824EEC6B70058107D /* Resources */,
+				82A7989D442A57DB8DF70826 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -637,6 +675,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B585F6724EEC6B90058107D /* Build configuration list for PBXNativeTarget "DadiTests" */;
 			buildPhases = (
+				868C86BE8403090261B23F05 /* [CP] Check Pods Manifest.lock */,
 				2B585F4C24EEC6B90058107D /* Sources */,
 				2B585F4D24EEC6B90058107D /* Frameworks */,
 				2B585F4E24EEC6B90058107D /* Resources */,
@@ -749,6 +788,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54CD734BAFD58BED7D89E4D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dadi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A7989D442A57DB8DF70826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dadi/Pods-Dadi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dadi/Pods-Dadi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dadi/Pods-Dadi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868C86BE8403090261B23F05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DadiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B585F3624EEC6B70058107D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -764,6 +867,7 @@
 				2BFF352F250E707F00158614 /* ProfileWireframe.swift in Sources */,
 				2B585F7524EED6350058107D /* RoomViewModel.swift in Sources */,
 				2BFEE120250FD016003FAB93 /* OwnerEntity.swift in Sources */,
+				2BFEE1262510D068003FAB93 /* DetailViewController.swift in Sources */,
 				2BFF3531250E707F00158614 /* ProfileViewController.swift in Sources */,
 				2B9CB1CA250E312D000EDDFC /* SearchWireframe.swift in Sources */,
 				2BFEE107250F8F83003FAB93 /* LocationsViewController.swift in Sources */,
@@ -956,6 +1060,7 @@
 		};
 		2B585F6524EEC6B90058107D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B42D1B9459E6A5BF2C7108 /* Pods-Dadi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -973,6 +1078,7 @@
 		};
 		2B585F6624EEC6B90058107D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2092F74E5982530A340580A /* Pods-Dadi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -990,6 +1096,7 @@
 		};
 		2B585F6824EEC6B90058107D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001C5C3FD136E54343721925 /* Pods-DadiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1011,6 +1118,7 @@
 		};
 		2B585F6924EEC6B90058107D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C8161A0B642ABB05890768 /* Pods-DadiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

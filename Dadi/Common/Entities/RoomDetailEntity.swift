@@ -7,11 +7,11 @@
 //
 
 struct RoomDetailEntity: Codable {
-    var id: String
+    var id: Int
     var title: String
     var description: String
     var price: String
     var lat: Double
     var lng: Double
-    //TBD
+    var owner: OwnerEntity
 }

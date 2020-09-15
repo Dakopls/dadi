@@ -36,8 +36,8 @@ class SearchWireframe: SearchWireframeProtocol {
             pushLocations()
         case .rooms(let location):
             pushRooms(location: location)
-        case .roomDetail: break
-//            pushRoomDetail()
+        case .roomDetail:
+            pushRoomDetail()
         case .booking: break
 //            pushBooking()
         }
@@ -61,16 +61,14 @@ class SearchWireframe: SearchWireframeProtocol {
         home.show(self.rooms!, sender: self.locations)
     }
     
-//    private func pushRoomDetail() {
-//        if self.detail == nil {
-//            let detail = RoomDetailViewController()
-//            detail.presenter = self.presenter
-//            presenter?.detail = detail
-//            self.detail = detail as UIViewController
-//        }
-//        home.show(self.detail!, sender: self.rooms)
-//    }
-//    
+    private func pushRoomDetail() {
+        let detail = DetailViewController()
+        detail.presenter = self.presenter
+        presenter?.detail = detail
+        self.detail = detail as UIViewController
+        home.show(self.detail!, sender: self.rooms)
+    }
+    
 //    private func pushBooking() {
 //        if self.booking == nil {
 //            let booking = BookingViewController()

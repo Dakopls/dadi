@@ -35,7 +35,7 @@ class SearchPresenter: SearchPresenterProtocol, SearchInteractorOutputProtocol {
         case .selectRoom(let entity):
             interactor?.do(.storeRoom(entity: entity))
             wireframe?.navigate(to: .roomDetail)
-        case .fetchRoomDetail: break
+        case .fetchRoomDetail:
             interactor?.do(.requestRoomDetail)
         case .selectBooking:
             wireframe?.navigate(to: .booking)

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import Kingfisher //url image manager
+import Kingfisher
 
 class RoomsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, RoomsViewProtocol {
 
@@ -79,8 +79,6 @@ class RoomsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let room = self.rooms[indexPath.row]
 //        cell.photo?.kf.setImage(with: URL(string: room.photos[0].url_small!))
-// Url image manager
-//        cell.photo?.
         cell.name?.text = room.title
         cell.price?.text = room.price
         cell.owner?.text = room.owner.display
@@ -98,6 +96,7 @@ class RoomsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.presenter?.perform(action: .selectRoom(room: content))
     }
     
+    // MARK: - RoomsViewProtocol
     func populate(_ state: RoomsState) {
         switch state {
         case .success(let entity):
