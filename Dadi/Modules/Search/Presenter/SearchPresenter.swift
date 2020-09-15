@@ -30,7 +30,7 @@ class SearchPresenter: SearchPresenterProtocol, SearchInteractorOutputProtocol {
         case .selectLocation(let location):
             interactor?.do(.storeLocation(entity: location))
             wireframe?.navigate(to: .rooms(location: location.title))
-        case .fetchRooms: break
+        case .fetchRooms:
             interactor?.do(.requestRooms)
         case .selectRoom(let entity):
             interactor?.do(.storeRoom(entity: entity))

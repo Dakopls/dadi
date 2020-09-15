@@ -53,7 +53,7 @@
 		2BFEE117250FC113003FAB93 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE112250FC113003FAB93 /* RoomsViewController.swift */; };
 		2BFEE118250FC113003FAB93 /* RoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEE114250FC113003FAB93 /* RoomTableViewCell.xib */; };
 		2BFEE119250FC113003FAB93 /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE115250FC113003FAB93 /* RoomTableViewCell.swift */; };
-		2BFEE11A250FC113003FAB93 /* RoomsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEE116250FC113003FAB93 /* RoomsViewController.xib */; };
+		2BFEE11A250FC113003FAB93 /* RoomsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEE116250FC113003FAB93 /* RoomsView.xib */; };
 		2BFEE11C250FC5B8003FAB93 /* RoomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE11B250FC5B8003FAB93 /* RoomEntity.swift */; };
 		2BFEE11E250FC77C003FAB93 /* PictureEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE11D250FC77C003FAB93 /* PictureEntity.swift */; };
 		2BFEE120250FD016003FAB93 /* OwnerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE11F250FD016003FAB93 /* OwnerEntity.swift */; };
@@ -134,7 +134,7 @@
 		2BFEE112250FC113003FAB93 /* RoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 		2BFEE114250FC113003FAB93 /* RoomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomTableViewCell.xib; sourceTree = "<group>"; };
 		2BFEE115250FC113003FAB93 /* RoomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
-		2BFEE116250FC113003FAB93 /* RoomsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomsViewController.xib; sourceTree = "<group>"; };
+		2BFEE116250FC113003FAB93 /* RoomsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomsView.xib; sourceTree = "<group>"; };
 		2BFEE11B250FC5B8003FAB93 /* RoomEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomEntity.swift; sourceTree = "<group>"; };
 		2BFEE11D250FC77C003FAB93 /* PictureEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureEntity.swift; sourceTree = "<group>"; };
 		2BFEE11F250FD016003FAB93 /* OwnerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerEntity.swift; sourceTree = "<group>"; };
@@ -506,7 +506,7 @@
 			children = (
 				2BFEE113250FC113003FAB93 /* Cell */,
 				2BFEE112250FC113003FAB93 /* RoomsViewController.swift */,
-				2BFEE116250FC113003FAB93 /* RoomsViewController.xib */,
+				2BFEE116250FC113003FAB93 /* RoomsView.xib */,
 			);
 			path = Rooms;
 			sourceTree = "<group>";
@@ -721,7 +721,7 @@
 				2B53E025250D49EC0009D517 /* RegisterView.xib in Resources */,
 				2BFEE110250FAE60003FAB93 /* LocationTableViewCell.xib in Resources */,
 				2B585F4724EEC6B90058107D /* Assets.xcassets in Resources */,
-				2BFEE11A250FC113003FAB93 /* RoomsViewController.xib in Resources */,
+				2BFEE11A250FC113003FAB93 /* RoomsView.xib in Resources */,
 				2BFEE109250FA002003FAB93 /* LocationsView.xib in Resources */,
 				2BFEE103250F8949003FAB93 /* SeekerHomeView.xib in Resources */,
 				2BFEE118250FC113003FAB93 /* RoomTableViewCell.xib in Resources */,

@@ -16,6 +16,10 @@ class SearchInteractor: SearchInteractorInputProtocol {
     var presenter: SearchInteractorOutputProtocol?
     var datamanager: SearchAPIDataManagerProtocol?
     
+    init() {
+        self.datamanager = SearchAPIDataManager()
+    }
+    
     func `do`(_ job: SearchJob) {
         switch job {
         case .requestLocations(let text):
@@ -40,7 +44,6 @@ class SearchInteractor: SearchInteractorInputProtocol {
             case .failure(let error):
                 self.handleLocationsError(error: error)
             }
-            
         }
     }
     

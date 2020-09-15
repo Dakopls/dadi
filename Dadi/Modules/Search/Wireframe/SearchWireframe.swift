@@ -16,14 +16,17 @@ class SearchWireframe: SearchWireframeProtocol {
     var detail: UIViewController?
     var booking: UIViewController?
     
-    var presenter: SearchPresenterProtocol?
+    var presenter: SearchPresenter?
     
     init() {
         self.presenter = SearchPresenter()
         let home = SeekerHomeViewController()
+        let interactor = SearchInteractor()
         home.presenter = self.presenter
         self.presenter?.home = home
         self.presenter?.wireframe = self
+        self.presenter?.interactor = interactor
+        interactor.presenter = self.presenter
         self.home = home
     }
     

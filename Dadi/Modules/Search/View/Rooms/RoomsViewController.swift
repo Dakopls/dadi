@@ -16,8 +16,7 @@ class RoomsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     private var rooms = [RoomEntity]()
     private var location: String
     
-    @IBOutlet weak var headerView: UIView!
-    @IBOutlet weak var backButton: UIControl!
+    @IBOutlet weak var searchBar: UIView!
     @IBOutlet weak var locationSearched: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
@@ -33,17 +32,17 @@ class RoomsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonSettings()
         tableSettings()
+        buttonSettings()
         self.presenter?.perform(action: .fetchRooms)
     }
     
     // MARK: - Setups
     func buttonSettings() {
         self.locationSearched.text = self.location
-        self.backButton.backgroundColor = UIColor.init(red:239/255, green:239/255, blue: 241/255, alpha: 1)
-        self.backButton.layer.cornerRadius = 8.0
-        self.backButton.tintColor = .black
+        self.searchBar.backgroundColor = UIColor.init(red:239/255, green:239/255, blue: 241/255, alpha: 1)
+        self.searchBar.layer.cornerRadius = 8.0
+        self.searchBar.tintColor = .black
     }
     
     func tableSettings() {

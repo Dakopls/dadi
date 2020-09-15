@@ -23,7 +23,7 @@ protocol SearchWireframeProtocol: class {
     var detail: UIViewController? { get set }
     var booking: UIViewController? { get set }
     
-    var presenter: SearchPresenterProtocol? { get set }
+    var presenter: SearchPresenter? { get set }
     
     func navigate(to page: SearchPage)
 }

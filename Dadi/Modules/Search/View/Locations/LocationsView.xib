@@ -9,7 +9,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationsViewController" customModule="Dadi" customModuleProvider="target">
             <connections>
-                <outlet property="searchBar" destination="d6V-k0-rnM" id="1RX-Fn-bhi"/>
+                <outlet property="searchBar" destination="d6V-k0-rnM" id="h4w-sd-A77"/>
+                <outlet property="tableView" destination="GdO-Wp-g8a" id="Z3m-Za-v04"/>
                 <outlet property="view" destination="iN0-l3-epB" id="b9E-hX-oOl"/>
             </connections>
         </placeholder>
