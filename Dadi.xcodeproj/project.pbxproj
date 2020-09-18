@@ -17,13 +17,11 @@
 		2B585F4A24EEC6B90058107D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B585F4824EEC6B90058107D /* LaunchScreen.storyboard */; };
 		2B585F5524EEC6B90058107D /* DadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F5424EEC6B90058107D /* DadiTests.swift */; };
 		2B585F6024EEC6B90058107D /* DadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F5F24EEC6B90058107D /* DadiUITests.swift */; };
-		2B585F7524EED6350058107D /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7424EED6350058107D /* RoomViewModel.swift */; };
 		2B585F7824EEDAC30058107D /* SearchViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7724EEDAC30058107D /* SearchViewProtocols.swift */; };
 		2B585F7A24EEE1720058107D /* SearchPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7924EEE1720058107D /* SearchPresenterProtocol.swift */; };
 		2B585F7C24EEE1E30058107D /* SearchWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F7B24EEE1E30058107D /* SearchWireframeProtocol.swift */; };
 		2B585F8624EEE8C80058107D /* SearchInteractorInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F8524EEE8C80058107D /* SearchInteractorInputProtocol.swift */; };
 		2B585F8824EEE9D70058107D /* SearchInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F8724EEE9D70058107D /* SearchInteractorOutputProtocol.swift */; };
-		2B585F8E24EEF19E0058107D /* RoomDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */; };
 		2B585F9124EEF2450058107D /* SearchAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9024EEF2440058107D /* SearchAPIDataManager.swift */; };
 		2B585F9324EEFF640058107D /* SearchAPIDataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9224EEFF640058107D /* SearchAPIDataManagerProtocol.swift */; };
 		2B585F9A24EF076E0058107D /* RoomDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B585F9924EF076E0058107D /* RoomDetailEntity.swift */; };
@@ -100,13 +98,11 @@
 		2B585F5B24EEC6B90058107D /* DadiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B585F5F24EEC6B90058107D /* DadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadiUITests.swift; sourceTree = "<group>"; };
 		2B585F6124EEC6B90058107D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B585F7424EED6350058107D /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
 		2B585F7724EEDAC30058107D /* SearchViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewProtocols.swift; sourceTree = "<group>"; };
 		2B585F7924EEE1720058107D /* SearchPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenterProtocol.swift; sourceTree = "<group>"; };
 		2B585F7B24EEE1E30058107D /* SearchWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWireframeProtocol.swift; sourceTree = "<group>"; };
 		2B585F8524EEE8C80058107D /* SearchInteractorInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractorInputProtocol.swift; sourceTree = "<group>"; };
 		2B585F8724EEE9D70058107D /* SearchInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractorOutputProtocol.swift; sourceTree = "<group>"; };
-		2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailViewModel.swift; sourceTree = "<group>"; };
 		2B585F9024EEF2440058107D /* SearchAPIDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPIDataManager.swift; sourceTree = "<group>"; };
 		2B585F9224EEFF640058107D /* SearchAPIDataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPIDataManagerProtocol.swift; sourceTree = "<group>"; };
 		2B585F9924EF076E0058107D /* RoomDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailEntity.swift; sourceTree = "<group>"; };
@@ -256,19 +252,8 @@
 				2B6BBEC4250E900B00E6E250 /* Locations */,
 				2B6BBEC1250E851300E6E250 /* Rooms */,
 				2B6BBEC2250E857B00E6E250 /* RoomDetail */,
-				2B6BBEC3250E858B00E6E250 /* Booking */,
-				2B585F6F24EED5E20058107D /* Model */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		2B585F6F24EED5E20058107D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2B585F7424EED6350058107D /* RoomViewModel.swift */,
-				2B585F8D24EEF19E0058107D /* RoomDetailViewModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		2B585F7624EEDA770058107D /* Protocol */ = {
@@ -294,7 +279,6 @@
 				2B6BBEB7250E7EB400E6E250 /* Chat */,
 				2B9CB1D6250E69E1000EDDFC /* Favorites */,
 				2BFF3529250E707F00158614 /* Profile */,
-				2B6ACC88250154440041C6D3 /* RoomListing */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -443,13 +427,6 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		2B6ACC88250154440041C6D3 /* RoomListing */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RoomListing;
-			sourceTree = "<group>";
-		};
 		2B6ACC89250154630041C6D3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,13 +486,6 @@
 				2BFEE1252510D068003FAB93 /* DetailViewController.swift */,
 			);
 			path = RoomDetail;
-			sourceTree = "<group>";
-		};
-		2B6BBEC3250E858B00E6E250 /* Booking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Booking;
 			sourceTree = "<group>";
 		};
 		2B6BBEC4250E900B00E6E250 /* Locations */ = {
@@ -841,7 +811,6 @@
 				2BFEE122250FDA97003FAB93 /* SearchInteractor.swift in Sources */,
 				2BFEE124250FF619003FAB93 /* URLDataRetriever.swift in Sources */,
 				2BFF352F250E707F00158614 /* ProfileWireframe.swift in Sources */,
-				2B585F7524EED6350058107D /* RoomViewModel.swift in Sources */,
 				2BFEE120250FD016003FAB93 /* OwnerEntity.swift in Sources */,
 				2BFEE1262510D068003FAB93 /* DetailViewController.swift in Sources */,
 				2BFF3531250E707F00158614 /* ProfileViewController.swift in Sources */,
@@ -861,7 +830,6 @@
 				2B585F9324EEFF640058107D /* SearchAPIDataManagerProtocol.swift in Sources */,
 				2B6BBEC6250F640100E6E250 /* LocationEntity.swift in Sources */,
 				2B585F9A24EF076E0058107D /* RoomDetailEntity.swift in Sources */,
-				2B585F8E24EEF19E0058107D /* RoomDetailViewModel.swift in Sources */,
 				2BFEE11C250FC5B8003FAB93 /* RoomEntity.swift in Sources */,
 				2B53E027250D4C2E0009D517 /* AuthenticationPresenterProtcol.swift in Sources */,
 				2B585F7A24EEE1720058107D /* SearchPresenterProtocol.swift in Sources */,
